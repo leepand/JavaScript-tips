@@ -1,0 +1,2 @@
+# JavaScript-tips
+JavaScript tips
