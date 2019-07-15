@@ -7,4 +7,6 @@
         parent.layer.close(index); //再执行关闭 
     }
 </script>
+<div class="container-fluid flex-grow-1 container-p-y layui-form-item" >
+
 <a tabindex="0" href="javascript:;"  onclick="formClose()" class="onlineExp-a">
