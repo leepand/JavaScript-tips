@@ -1,3 +1,4 @@
+//取得表格行的 inner HTML
 <html>
 <head>
 <script type="text/javascript">
