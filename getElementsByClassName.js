@@ -1,3 +1,4 @@
+//https://stackoverflow.com/questions/1933602/how-to-getelementbyclass-instead-of-getelementbyid-with-javascript
 toggle_visibility("sidenav-item")
 function toggle_visibility(className) {
    var elements = getElementsByClassName(document, className),
