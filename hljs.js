@@ -15,3 +15,24 @@
                 $('pre code').each(function(i, block) {
                     hljs.highlightBlock(block);
                 });
+
+
+
+<body>
+        <div ng-include="'template/header.html'"></div>
+        <div>
+            <pre>
+                <code class="lang-javascript">
+        function init(){
+            $scope.req.getArticle();
+            $('pre code').each(function(i, block) {
+                hljs.highlightBlock(block);
+            });
+        }
+                </code>
+            </pre>
+        </div>
+        <div class="content" ui-view></div>
+        <footer>cloud blog by@ermu </footer>
+    </body>
+
