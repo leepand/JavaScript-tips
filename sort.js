@@ -97,3 +97,22 @@ function JsonSort(json,key){
 }
 var json = JsonSort(willSort,'age');
 console.log(json);
+
+
+
+algo_request_info={"two":2, "one":1, "five":5, "1four":4}
+
+// Create items array
+                    var items = Object.keys(algo_request_info).map(function(key) {
+                        return [key, algo_request_info[key]];
+                    });
+                    // Sort the array based on the second element
+                    items.sort(function(first, second) {
+                        return second[1] - first[1];
+                    });
+                    var ServRequestsCnt=0;
+                    items.forEach(function(serviceModel,i){
+                        ServRequestsCnt+=serviceModel[1]
+                        
+                    });
+
